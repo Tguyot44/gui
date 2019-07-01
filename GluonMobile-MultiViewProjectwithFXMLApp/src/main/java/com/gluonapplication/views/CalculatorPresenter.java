@@ -72,26 +72,27 @@ public class CalculatorPresenter {
             case "choice01":
                 pmp.put("Net",val1);
                 pmp.put("Brut",val2);
-                hh = new HttpHelper("http://ebfad477.ngrok.io/Math/TauxDeRemise",pmp);
+                hh = new HttpHelper("/Math/TauxDeRemise",pmp);
                 break;
             case "choice02":
                 pmp.put("Brut",val1);
                 pmp.put("Taux",val2);
-                hh = new HttpHelper("http://ebfad477.ngrok.io/Math/PrixAchatNet",pmp);
+                hh = new HttpHelper("/Math/PrixAchatNet",pmp);
                 break;
             case "choice03":
                 pmp.put("Net",val1);
                 pmp.put("Coef",val2);
-                hh =new HttpHelper("http://ebfad477.ngrok.io/Math/PrixVentetNet",pmp);
+                hh =new HttpHelper("/Math/PrixVentetNet",pmp);
                 break;
             case "choice04":
                 pmp.put("Vente",val1);
                 pmp.put("Achat",val2);
-                hh = new HttpHelper("http://ebfad477.ngrok.io/Math/CoefficientMultiplicateur",pmp);
+                hh = new HttpHelper("/Math/CoefficientMultiplicateur",pmp);
                 break;
                 default:
                     break;
         }
         result.setText(hh.execute());
+        
     }
 }

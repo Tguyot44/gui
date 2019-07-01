@@ -24,7 +24,7 @@ public class DrawerManager {
                 new Avatar(21, new Image(DrawerManager.class.getResourceAsStream("/icon.png"))));
         drawer.setHeader(header);
         
-        final Item menuItem = new ViewItem("Menu", MaterialDesignIcon.HOME.graphic(), MENU_VIEW, ViewStackPolicy.SKIP);
+        final Item menuItem = new ViewItem("Log Out", MaterialDesignIcon.HOME.graphic(), MENU_VIEW, ViewStackPolicy.SKIP);
         final Item calculatorItem = new ViewItem("Calculator", MaterialDesignIcon.DASHBOARD.graphic(), CALCULATOR_VIEW);
         final Item gestionItem = new ViewItem("Gestion",MaterialDesignIcon.NEAR_ME.graphic(),GESTION_VIEW);
         drawer.getItems().addAll(menuItem, calculatorItem,gestionItem);

@@ -9,15 +9,15 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class HttpHelper {
-    String url;
+    String url = "http://c0d43173.ngrok.io";
     Map<String,String> param = new HashMap<>();
 
     public HttpHelper(String url, Map<String, String> param) {
-        this.url = url;
+        this.url += url;
         this.param = param;
     }
     public HttpHelper(String url) {
-        this.url = url;
+        this.url += url;
     }
 
     public String getUrl() {

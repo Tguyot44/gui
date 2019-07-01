@@ -3,9 +3,12 @@ package com.gluonapplication;
 import com.gluonapplication.views.GestionView;
 import com.gluonapplication.views.MenuView;
 import com.gluonapplication.views.CalculatorView;
+import com.gluonhq.charm.down.Platform;
 import com.gluonhq.charm.glisten.application.MobileApplication;
 import com.gluonhq.charm.glisten.visual.Swatch;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
@@ -17,13 +20,12 @@ public class GluonApplication extends MobileApplication {
     
     @Override
     public void init() {
-
         addViewFactory(MENU_VIEW, () -> new MenuView().getView());
         addViewFactory(CALCULATOR_VIEW, () -> new CalculatorView().getView());
         addViewFactory(GESTION_VIEW, () -> new GestionView().getView());
 
-
         DrawerManager.buildDrawer(this);
+
     }
 
     @Override

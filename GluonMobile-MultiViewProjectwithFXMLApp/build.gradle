@@ -30,5 +30,6 @@ jfxmobile {
     }
     android {
         manifest = 'src/android/AndroidManifest.xml'
+        androidSdk  = 'C:/Users/Thomas/AppData/Local/Android/Sdk'
     }
 }
