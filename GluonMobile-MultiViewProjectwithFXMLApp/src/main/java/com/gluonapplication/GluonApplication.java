@@ -30,7 +30,7 @@ public class GluonApplication extends MobileApplication {
 
     @Override
     public void postInit(Scene scene) {
-        Swatch.INDIGO.assignTo(scene);
+        Swatch.AMBER.assignTo(scene);
 
         scene.getStylesheets().add(GluonApplication.class.getResource("style.css").toExternalForm());
         ((Stage) scene.getWindow()).getIcons().add(new Image(GluonApplication.class.getResourceAsStream("/icon.png")));
