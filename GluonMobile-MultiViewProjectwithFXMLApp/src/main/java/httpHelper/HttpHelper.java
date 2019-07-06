@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class HttpHelper {
-    String url = "http://c0d43173.ngrok.io";
+    String url = "http://localhost:8080";
     Map<String,String> param = new HashMap<>();
 
     public HttpHelper(String url, Map<String, String> param) {

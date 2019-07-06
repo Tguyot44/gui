@@ -27,7 +27,9 @@ public class DrawerManager {
         final Item menuItem = new ViewItem("Log Out", MaterialDesignIcon.HOME.graphic(), MENU_VIEW, ViewStackPolicy.SKIP);
         final Item calculatorItem = new ViewItem("Calculator", MaterialDesignIcon.DASHBOARD.graphic(), CALCULATOR_VIEW);
         final Item gestionItem = new ViewItem("Gestion",MaterialDesignIcon.NEAR_ME.graphic(),GESTION_VIEW);
-        drawer.getItems().addAll(menuItem, calculatorItem,gestionItem);
+        final Item PharmacieItem = new ViewItem("Pharmacie",MaterialDesignIcon.HEALING.graphic(),PHARMACIE_VIEW);
+        final Item ProduitItem = new ViewItem("Produits",MaterialDesignIcon.REDEEM.graphic(),PHARMACIE_VIEW);
+        drawer.getItems().addAll(menuItem, calculatorItem,gestionItem,PharmacieItem,ProduitItem);
         
         if (Platform.isDesktop()) {
             final Item quitItem = new Item("Quit", MaterialDesignIcon.EXIT_TO_APP.graphic());
