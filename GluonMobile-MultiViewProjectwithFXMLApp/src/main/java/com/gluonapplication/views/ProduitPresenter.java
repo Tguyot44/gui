@@ -31,7 +31,6 @@ public class ProduitPresenter {
     @FXML
     private View produit;
     @FXML private TableView<Produit> table;
-   private  String test,test1;
     private final ObservableList<Produit> data =
             FXCollections.observableArrayList();
     public void initialize() {
