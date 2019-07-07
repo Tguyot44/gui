@@ -29,7 +29,8 @@ public class DrawerManager {
         final Item gestionItem = new ViewItem("Gestion",MaterialDesignIcon.NEAR_ME.graphic(),GESTION_VIEW);
         final Item PharmacieItem = new ViewItem("Pharmacie",MaterialDesignIcon.HEALING.graphic(),PHARMACIE_VIEW);
         final Item ProduitItem = new ViewItem("Produits",MaterialDesignIcon.REDEEM.graphic(),PRODUIT_VIEW);
-        drawer.getItems().addAll(menuItem, calculatorItem,gestionItem,PharmacieItem,ProduitItem);
+        final Item AchatItem = new ViewItem("Achat",MaterialDesignIcon.EURO_SYMBOL.graphic(),ACHAT_VIEW);
+        drawer.getItems().addAll(menuItem, calculatorItem,gestionItem,PharmacieItem,ProduitItem,AchatItem);
         
         if (Platform.isDesktop()) {
             final Item quitItem = new Item("Quit", MaterialDesignIcon.EXIT_TO_APP.graphic());

@@ -37,14 +37,14 @@ public class MenuPresenter {
 
     public void signIn(ActionEvent actionEvent) {
 
-        String login = loginField.getText();
+        /*String login = loginField.getText();
         String loginAttendu = "test";
         if(login == loginAttendu) {
-            loginField.setText("Ca marche");
+            loginField.setText("Ca marche");*/
             menu.getApplication().getDrawer().open();
-        }
+        /*}
         else{
             loginField.setText("Ca marche plus");
-        }
+        }*/
     }
 }
