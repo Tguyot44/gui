@@ -54,9 +54,8 @@ public class PharmaciePresenter {
                         JsonReader jsonReader = Json.createReader(new StringReader(inputLine));
                         JsonArray array = jsonReader.readArray();
                         JsonObject object = array.getJsonObject(0);
+                        test.setText(object.getString("adresse"));
                         jsonReader.close();
-                        test.setText(object.toString());
-
                     }
                     in.close();
 
