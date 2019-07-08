@@ -148,27 +148,28 @@ public class AchatsPresenter {
 
     }
 
-    private void affichage(String inputLine) throws IOException {
+    public void affichage(String inputLine) throws IOException {
+
 
         TableColumn client = new TableColumn("Client");
         client.setMinWidth(100);
         client.setCellValueFactory(
-                new PropertyValueFactory<Achat, String>("Client"));
+                new PropertyValueFactory<Achat ,String>("client"));
 
         TableColumn pharmacie = new TableColumn("Pharmacie");
         pharmacie.setMinWidth(100);
         pharmacie.setCellValueFactory(
-                new PropertyValueFactory<Achat, String>("Pharmacie"));
+                new PropertyValueFactory<Achat ,String>("pharmacie"));
 
         TableColumn dmo = new TableColumn("DMO");
         dmo.setMinWidth(100);
         dmo.setCellValueFactory(
-                new PropertyValueFactory<Achat, String>("DMO"));
+                new PropertyValueFactory<Achat ,String>("dmo"));
 
         TableColumn produit = new TableColumn("Produit");
         produit.setMinWidth(100);
         produit.setCellValueFactory(
-                new PropertyValueFactory<Achat, String>("Produit"));
+                new PropertyValueFactory<Achat ,String>("produit"));
 
         URL url = null;
         try {
@@ -199,19 +200,28 @@ public class AchatsPresenter {
 
                         JsonObject object = array.getJsonObject(i);
 
-                        Achat achat = new Achat(object.getJsonObject("idClient").getString("mail"),object.getJsonObject("idPharmacie").getString("libelle"),object.getJsonObject("idDmo").getString("nom"),object.getJsonObject("produit").getString("libelle"));
+                        //Achat achat = new Achat("","","","");
 
+                        donnee.add(new Achat(
+                      (object.getJsonObject("idClient").getString("mail")),
+                      (object.getJsonObject("idPharmacie").getString("libelle")),
+                      (object.getJsonObject("idDmo").getString("nom")),
+                      (object.getJsonObject("produit").getString("libelle")))
+                        );
 
-                       achat.setclient(object.getJsonObject("idClient").getString("mail"));
-                        achat.setpharmacie(object.getJsonObject("idPharmacie").getString("libelle"));
-                        achat.setdmo(object.getJsonObject("idDmo").getString("nom"));
-                        achat.setproduit(object.getJsonObject("produit").getString("libelle"));
+                        Achat achat = new Achat("","","","");
+                        client.setText(object.getJsonObject("idClient").getString("mail"));
+                        pharmacie.setText(object.getJsonObject("idPharmacie").getString("libelle"));
+                        dmo.setText(object.getJsonObject("idDmo").getString("nom"));
+                        produit.setText(object.getJsonObject("produit").getString("libelle"));
                         donnee.add(achat);
+                        table.setItems(donnee);
                         jsonReader.close();
                     }
 
 
                 }
+
                 in.close();
 
 
@@ -226,8 +236,10 @@ public class AchatsPresenter {
             e.printStackTrace();
         }
 
-        table.setItems(donnee);
+
+
         table.getColumns().addAll(client,pharmacie,dmo,produit);
+
 
     }
 }
