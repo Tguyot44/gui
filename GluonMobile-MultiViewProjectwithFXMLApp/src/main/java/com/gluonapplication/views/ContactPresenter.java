@@ -1,5 +1,6 @@
 package com.gluonapplication.views;
 
+import com.gluonapplication.object.Client;
 import com.gluonapplication.object.Pharmacie;
 import com.gluonapplication.object.Produit;
 import com.gluonhq.charm.glisten.animation.RotateInDownRightTransition;
@@ -12,10 +13,12 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.control.TextArea;
 import javafx.scene.control.cell.PropertyValueFactory;
 
-import javax.json.*;
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonObject;
+import javax.json.JsonReader;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -25,49 +28,51 @@ import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
 
-
-public class PharmaciePresenter {
+public class ContactPresenter {
 
     @FXML
-    private View pharmacie;
-    @FXML private TableView<Pharmacie> pharmatable;
-    private final ObservableList<Pharmacie> data =
+    private View contact;
+    @FXML private TableView<Client> table;
+    private final ObservableList<Client> data =
             FXCollections.observableArrayList();
 
-    public void initialize() {
-        pharmacie.setShowTransitionFactory(RotateInDownRightTransition::new);
 
-        pharmacie.showingProperty().addListener((obs, oldValue, newValue) -> {
+
+    public void initialize() {
+        contact.setShowTransitionFactory(RotateInDownRightTransition::new);
+
+        contact.showingProperty().addListener((obs, oldValue, newValue) -> {
             if (newValue) {
                 AppBar appBar = MobileApplication.getInstance().getAppBar();
                 appBar.setNavIcon(MaterialDesignIcon.MENU.button(e ->
                         MobileApplication.getInstance().getDrawer().open()));
-                appBar.setTitleText("Pharmacies");
+                appBar.setTitleText("Contact");
             }
-            TableColumn adresse = new TableColumn("Adresse");
-            adresse.setMinWidth(100);
-            adresse.setCellValueFactory(
-                    new PropertyValueFactory<Pharmacie, String>("Adresse"));
 
-            TableColumn numero = new TableColumn("Numero");
-            numero.setMinWidth(25);
-            numero.setCellValueFactory(
-                    new PropertyValueFactory<Pharmacie, String>("Numero"));
+        TableColumn mail = new TableColumn("Mail");
+        mail.setMinWidth(100);
+        mail.setCellValueFactory(
+                new PropertyValueFactory<Client, String>("mail"));
 
-            TableColumn codePostal = new TableColumn("CodePostal");
-            codePostal.setMinWidth(25);
-            codePostal.setCellValueFactory(
-                    new PropertyValueFactory<Pharmacie, String>("CodePostal"));
+        TableColumn numero = new TableColumn("Numero");
+        numero.setMinWidth(25);
+        numero.setCellValueFactory(
+                new PropertyValueFactory<Client, String>("numero_telephone"));
 
-            TableColumn libelle = new TableColumn("Libelle");
-            libelle.setMinWidth(200);
-            libelle.setCellValueFactory(
-                    new PropertyValueFactory<Pharmacie, String>("Libelle"));
+        TableColumn nom = new TableColumn("Nom");
+        nom.setMinWidth(25);
+        nom.setCellValueFactory(
+                new PropertyValueFactory<Client, String>("nom"));
+
+        TableColumn prenom = new TableColumn("Prenom");
+        prenom.setMinWidth(200);
+        prenom.setCellValueFactory(
+                new PropertyValueFactory<Client, String>("prenom"));
 
 
             URL url = null;
             try {
-                url = new URL("http://localhost:8080/get/Pharmacie");
+                url = new URL("http://localhost:8080/get/AllClients");
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             }
@@ -93,14 +98,14 @@ public class PharmaciePresenter {
 
 
                             JsonObject object = array.getJsonObject(i);
-                            Pharmacie pharmacie = new Pharmacie(object.getString("adresse"),object.getString("numero"),object.getString("codePostal"),object.getString("libelle"));
+                            Client client = new Client(object.getString("mail"),object.getString("nom"),object.getString("numeroTelephone"),object.getString("prenom"));
 
-                            pharmacie.setAdresse(object.getString("adresse"));
-                            pharmacie.setNumero(object.getString("numero"));
-                            pharmacie.setCodePostal(object.getString("codePostal"));
-                            pharmacie.setLibelle(object.getString("libelle"));
+                            client.setMail(object.getString("mail"));
+                            client.setNom(object.getString("nom"));
+                            client.setNumero_telephone(object.getString("numeroTelephone"));
+                            client.setPrenom(object.getString("prenom"));
 
-                            data.add(pharmacie);
+                            data.add(client);
                             jsonReader.close();
                         }
                     }
@@ -113,13 +118,10 @@ public class PharmaciePresenter {
             } catch (ProtocolException e) {
                 e.printStackTrace();
             }
-            pharmatable.setItems(data);
-            pharmatable.getColumns().addAll(adresse,numero,codePostal,libelle);
+            table.setItems(data);
+            table.getColumns().addAll(mail,numero,nom,prenom);
 
-        });
+
+    });
     }
-
-
-
 }
-

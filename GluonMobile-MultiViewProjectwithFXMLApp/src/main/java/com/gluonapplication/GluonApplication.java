@@ -17,7 +17,7 @@ public class GluonApplication extends MobileApplication {
     public static final String PHARMACIE_VIEW = "Pharmacie View";
     public static final String PRODUIT_VIEW = "Produit View";
     public static final String ACHAT_VIEW = "Achat View";
-    
+    public static final String CONTACT_VIEW = "Contact View";
     @Override
     public void init() {
         addViewFactory(MENU_VIEW, () -> new MenuView().getView());
@@ -26,6 +26,7 @@ public class GluonApplication extends MobileApplication {
         addViewFactory(PHARMACIE_VIEW, () -> new PharmacieView().getView());
         addViewFactory(PRODUIT_VIEW, () -> new ProduitView().getView());
         addViewFactory(ACHAT_VIEW, () -> new AchatView().getView());
+        addViewFactory(CONTACT_VIEW, () -> new ContactView().getView());
         DrawerManager.buildDrawer(this);
 
     }

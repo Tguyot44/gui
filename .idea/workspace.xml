@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb756296-08f9-4bb4-a903-adf12f3ae090" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/object/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ContactPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ContactView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/contact.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/AchatsPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/AchatsPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/build/classes/java/main/com/gluonapplication/DrawerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/build/classes/java/main/com/gluonapplication/DrawerManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/build/classes/java/main/com/gluonapplication/GluonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/build/classes/java/main/com/gluonapplication/GluonApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/DrawerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/DrawerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/GluonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/GluonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/PharmaciePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/PharmaciePresenter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -103,55 +113,87 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bat" value="1" />
-          <entry key="css" value="21" />
-          <entry key="fxml" value="36" />
+          <entry key="css" value="24" />
+          <entry key="fxml" value="42" />
           <entry key="gradle" value="5" />
           <entry key="gradlew" value="1" />
           <entry key="html" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="94" />
+          <entry key="java" value="104" />
           <entry key="png" value="1" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="21" />
+          <entry key="CSS" value="24" />
           <entry key="Groovy" value="5" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="94" />
+          <entry key="JAVA" value="104" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="36" />
+          <entry key="XML" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="fxml" value="270" />
+          <entry key="fxml" value="290" />
           <entry key="gradle" value="15" />
-          <entry key="java" value="4690" />
+          <entry key="java" value="5033" />
           <entry key="txt" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="15" />
-          <entry key="JAVA" value="4690" />
+          <entry key="JAVA" value="5033" />
           <entry key="PLAIN_TEXT" value="91" />
-          <entry key="XML" value="270" />
+          <entry key="XML" value="290" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/AchatsPresenter.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/GluonApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
+            <state relative-caret-position="323">
+              <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/contact.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/achat.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="true" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ContactPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="105" column="77" selection-start-line="105" selection-start-column="77" selection-end-line="105" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,41 +204,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/PharmaciePresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/GestionView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/CalculatorView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/GestionPresenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="116" column="79" lean-forward="true" selection-start-line="67" selection-start-column="12" selection-end-line="116" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -204,8 +213,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ProduitPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="136">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="34" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,10 +223,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/object/Produit.java">
+        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/object/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/DrawerManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="39" column="95" lean-forward="true" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -226,45 +261,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/object/pharmInfo.java">
+        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/CalculatorPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/object/Pharmacie.java">
+        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ContactView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/object/Achat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1365,18 +1379,23 @@
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/build.gradle" />
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/object/Produit.java" />
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/object/Pharmacie.java" />
-        <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/PharmaciePresenter.java" />
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/menu.fxml" />
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ProduitPresenter.java" />
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/calculator.css" />
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/achat.css" />
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/AchatView.java" />
-        <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/GluonApplication.java" />
-        <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/DrawerManager.java" />
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/MenuPresenter.java" />
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/achat.fxml" />
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/object/Achat.java" />
         <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/AchatsPresenter.java" />
+        <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/contact.css" />
+        <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/PharmaciePresenter.java" />
+        <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ContactView.java" />
+        <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/DrawerManager.java" />
+        <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/GluonApplication.java" />
+        <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/contact.fxml" />
+        <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/object/Client.java" />
+        <option value="$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ContactPresenter.java" />
       </list>
     </option>
   </component>
@@ -1390,7 +1409,7 @@
     <option name="directoryName" value="ipllMahN" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -1561,7 +1580,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562577448896" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562579546377" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -1707,7 +1726,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560290380943</updated>
-      <workItem from="1562263114193" duration="72021000" />
+      <workItem from="1562263114193" duration="74204000" />
     </task>
     <task id="LOCAL-00001" summary="tient thomas">
       <created>1562436478378</created>
@@ -1744,16 +1763,23 @@
       <option name="project" value="LOCAL" />
       <updated>1562540145645</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fini les achats">
+      <created>1562577488573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562577488573</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72021000" />
+    <option name="totallyTimeSpent" value="74204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15724947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1807,7 +1833,8 @@
     <MESSAGE value="Jsuis un boss de la vie" />
     <MESSAGE value="J'arrive pas avec le login" />
     <MESSAGE value="Presque fini les achats" />
-    <option name="LAST_COMMIT_MESSAGE" value="Presque fini les achats" />
+    <MESSAGE value="fini les achats" />
+    <option name="LAST_COMMIT_MESSAGE" value="fini les achats" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1831,27 +1858,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/charm-glisten/5.0.2/7e413e37f8f658af6e801da6622268341163f239/charm-glisten-5.0.2.jar!/com/gluonhq/charm/glisten/mvc/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
-          <folding>
-            <element signature="e#3719#3720#0" expanded="true" />
-            <element signature="e#3770#3771#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/javafx-src.zip!/javafx/beans/value/ChangeListener.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/javafx-src.zip!/javafx/scene/web/WebView.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/charm-glisten/5.0.2/7e413e37f8f658af6e801da6622268341163f239/charm-glisten-5.0.2.jar!/com/gluonhq/charm/glisten/application/MobileApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/menu.fxmlaz" />
     <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/android/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1889,13 +1895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/pharmacie.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -1947,13 +1946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/achat.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1967,34 +1959,6 @@
           <caret selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/GluonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/DrawerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="32" column="105" selection-start-line="32" selection-start-column="105" selection-end-line="32" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/menu.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/MenuView.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2013,13 +1977,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/CalculatorPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -2051,14 +2008,6 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/gestion.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/calculator.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -2067,36 +2016,10 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/pharmacie.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/achat.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ProduitView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ProduitPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2127,16 +2050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/GestionView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/CalculatorView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -2151,13 +2064,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/PharmaciePresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -2188,8 +2094,166 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/AchatsPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="171">
           <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/contact.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/pharmacie.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/menu.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/gestion.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/pharmacie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/GestionView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ContactView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/CalculatorPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/DrawerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="39" column="95" lean-forward="true" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/GluonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/achat.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/resources/com/gluonapplication/views/contact.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ProduitPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/PharmaciePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="116" column="79" lean-forward="true" selection-start-line="67" selection-start-column="12" selection-end-line="116" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/object/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GluonMobile-MultiViewProjectwithFXMLApp/src/main/java/com/gluonapplication/views/ContactPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="105" column="77" selection-start-line="105" selection-start-column="77" selection-end-line="105" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
